@@ -20,7 +20,7 @@
         <com.android.launcher3.NumberPreference
             android:key="pref_key_workspaceDefaultPage"
             android:title="@string/pref_title_default_workspace"
-            android:defaultValue="0"
+            android:defaultValue="1"
             launcher:min="0"
             launcher:max="10" />
 
