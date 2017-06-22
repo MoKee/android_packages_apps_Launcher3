@@ -29,6 +29,10 @@
     <string name="ok">Ok</string>
     <string name="icon_label">Label</string>
     <string name="loading">Loading, please wait</string>
+
     <!-- Search bar -->
     <string name="search_bar_title">Show search bar</string>
+
+    <!-- Predictive apps -->
+    <string name="show_predictive_apps_title">Predictive apps</string>
 </resources>
