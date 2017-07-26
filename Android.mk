@@ -49,7 +49,7 @@ LOCAL_AAPT_FLAGS := \
     --extra-packages android.support.v7.recyclerview \
     --rename-manifest-package com.mokee.nox2
 
-LOCAL_PACKAGE_NAME := Nox2
+LOCAL_PACKAGE_NAME := Nox
 LOCAL_CERTIFICATE := platform
 LOCAL_OVERRIDES_PACKAGES := Home Launcher2 Launcher3
 LOCAL_PRIVILEGED_MODULE := true
