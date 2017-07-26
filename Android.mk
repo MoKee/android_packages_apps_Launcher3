@@ -47,10 +47,11 @@ LOCAL_PROTOC_FLAGS := --proto_path=$(LOCAL_PATH)/protos/
 LOCAL_AAPT_FLAGS := \
     --auto-add-overlay \
     --extra-packages android.support.v7.recyclerview \
+    --rename-manifest-package com.mokee.nox2
 
-LOCAL_PACKAGE_NAME := Launcher3
+LOCAL_PACKAGE_NAME := Nox2
 LOCAL_CERTIFICATE := platform
-LOCAL_OVERRIDES_PACKAGES := Home Launcher2
+LOCAL_OVERRIDES_PACKAGES := Home Launcher2 Launcher3
 
 LOCAL_FULL_LIBS_MANIFEST_FILES := $(LOCAL_PATH)/AndroidManifest-common.xml
 
