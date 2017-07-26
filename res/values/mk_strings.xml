@@ -16,6 +16,7 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name_mk" translatable="false">Nox</string>
     <!-- Icon pack -->
     <string name="default_iconpack_title">Default</string>
     <string name="icons_pack_name">Icon pack</string>
