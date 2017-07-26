@@ -46,8 +46,7 @@ LOCAL_PROTOC_OPTIMIZE_TYPE := nano
 LOCAL_PROTOC_FLAGS := --proto_path=$(LOCAL_PATH)/protos/
 LOCAL_AAPT_FLAGS := \
     --auto-add-overlay \
-    --extra-packages android.support.v7.recyclerview \
-    --rename-manifest-package com.mokee.nox2
+    --extra-packages android.support.v7.recyclerview
 
 LOCAL_PACKAGE_NAME := Nox
 LOCAL_CERTIFICATE := platform
